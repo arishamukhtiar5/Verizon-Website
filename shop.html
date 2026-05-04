@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verizon Devices – Phones, Watches & Accessories</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body class="page-shop">
+
+
+<nav class="navbar" id="mainNav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-check">&#10003;</span>verizon</a>
+
+    <div class="nav-links" id="navLinks">
+      <div class="nav-menu">
+         <a href="index.html" class="nav-item">Home</a>
+        <a href="plans.html" class="nav-item">Plans</a>
+        
+        <a href="shop.html" class="nav-item">Shop</a>
+        <a href="deals.html" class="nav-item">Deals</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <div class="nav-search"><i class="fas fa-search"></i><input type="text" placeholder="Search Verizon" /></div>
+        <a href="contact.html" class="nav-signin">Sign in</a>
+        <a href="contact.html" class="nav-cart"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero page-hero--shop">
+  <h1>Shop the latest devices</h1>
+  <p>Explore new phones, tablets, watches and accessories with great Verizon deals and premium network support.</p>
+  <a href="plans.html" class="btn-primary">Pair with a Plan</a>
+</section>
+
+<section class="devices-section">
+  <div class="container">
+    <h2 class="section-title">Find your next device</h2>
+    <p class="section-sub">Filter by category and browse our most popular picks.</p>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="phone">Phones</button>
+      <button class="filter-btn" data-filter="tablet">Tablets</button>
+      <button class="filter-btn" data-filter="watch">Watches</button>
+      <button class="filter-btn" data-filter="accessory">Accessories</button>
+    </div>
+
+    <div class="devices-grid">
+      <div class="device-card" data-category="phone">
+        <span class="device-tag tag-new">New</span>
+        <img src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=400&q=80" alt="iPhone 17 Pro" />
+        <div class="device-name">iPhone 17 Pro</div>
+        <div class="device-brand">Apple</div>
+        <div class="device-price">$0</div>
+        <div class="device-price-sub">with eligible trade-in & new line</div>
+        <div class="device-colors"><span class="color-dot" style="background:#111"></span><span class="color-dot" style="background:#d9d9d9"></span><span class="color-dot" style="background:#c8b37f"></span></div>
+        <a href="plans.html" class="btn-red-sm">Buy Now</a>
+      </div>
+
+      <div class="device-card" data-category="phone">
+        <span class="device-tag tag-free">$0 Deal</span>
+        <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&q=80" alt="Galaxy S26+" />
+        <div class="device-name">Galaxy S26+</div>
+        <div class="device-brand">Samsung</div>
+        <div class="device-price">$0</div>
+        <div class="device-price-sub">with Unlimited Ultimate</div>
+        <div class="device-colors"><span class="color-dot" style="background:#222"></span><span class="color-dot" style="background:#e6e6e6"></span><span class="color-dot" style="background:#708090"></span></div>
+        <a href="plans.html" class="btn-red-sm">Buy Now</a>
+      </div>
+
+      <div class="device-card" data-category="phone">
+        <span class="device-tag tag-sale">Hot</span>
+        <img src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=400&q=80" alt="Pixel 10 Pro" />
+        <div class="device-name">Pixel 10 Pro</div>
+        <div class="device-brand">Google</div>
+        <div class="device-price">$0</div>
+        <div class="device-price-sub">with new line offer</div>
+        <div class="device-colors"><span class="color-dot" style="background:#0f0f10"></span><span class="color-dot" style="background:#f1f1f1"></span><span class="color-dot" style="background:#8f8f8f"></span></div>
+        <a href="plans.html" class="btn-red-sm">Buy Now</a>
+      </div>
+
+      <div class="device-card" data-category="tablet">
+        <img src="https://images.samsung.com/is/image/samsung/p6pim/pk/sm-s731bdbvpkd/gallery/pk-galaxy-s25-fe-sm-s731-sm-s731bdbvpkd-thumb-548713584" alt="Tablet" />
+        <div class="device-name">Tab S10 FE</div>
+        <div class="device-brand">Samsung</div>
+        <div class="device-price">$8/mo</div>
+        <div class="device-price-sub">on device payment plan</div>
+        <div class="device-colors"><span class="color-dot" style="background:#e5e5e5"></span><span class="color-dot" style="background:#b5b5b5"></span></div>
+        <a href="plans.html" class="btn-black-sm">Shop Tablet</a>
+      </div>
+
+      <div class="device-card" data-category="watch">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80" alt="Watch" />
+        <div class="device-name">Watch 8</div>
+        <div class="device-brand">Samsung</div>
+        <div class="device-price">$5/mo</div>
+        <div class="device-price-sub">when added with a phone line</div>
+        <div class="device-colors"><span class="color-dot" style="background:#111"></span><span class="color-dot" style="background:#d2d2d2"></span><span class="color-dot" style="background:#f0dcb2"></span></div>
+        <a href="plans.html" class="btn-black-sm">Shop Watch</a>
+      </div>
+
+      <div class="device-card" data-category="accessory">
+        <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&q=80" alt="Accessories" />
+        <div class="device-name">Pro Wireless Buds</div>
+        <div class="device-brand">Accessories</div>
+        <div class="device-price">$79</div>
+        <div class="device-price-sub">premium audio experience</div>
+        <div class="device-colors"><span class="color-dot" style="background:#fff"></span><span class="color-dot" style="background:#111"></span></div>
+        <a href="plans.html" class="btn-black-sm">Add Accessory</a>
+      </div>
+
+      <div class="device-card" data-category="accessory">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" alt="Wallet" />
+        <div class="device-name">Premium Wallet Case</div>
+        <div class="device-brand">Accessories</div>
+        <div class="device-price">$39</div>
+        <div class="device-price-sub">fits most flagship phones</div>
+        <div class="device-colors"><span class="color-dot" style="background:#3a2c2c"></span><span class="color-dot" style="background:#111"></span><span class="color-dot" style="background:#8b5a2b"></span></div>
+        <a href="plans.html" class="btn-black-sm">Add Accessory</a>
+      </div>
+
+      <div class="device-card" data-category="watch accessory">
+        <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&q=80" alt="Entertainment" />
+        <div class="device-name">Smart Streaming Pack</div>
+        <div class="device-brand">Entertainment</div>
+        <div class="device-price">$19/mo</div>
+        <div class="device-price-sub">bundle with mobile plan</div>
+        <div class="device-colors"><span class="color-dot" style="background:#111"></span><span class="color-dot" style="background:#cc0000"></span></div>
+        <a href="plans.html" class="btn-black-sm">Bundle Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-col"><h4>Pages</h4><ul>
+      <li><a href="index.html">Home</a></li><li><a href="plans.html">Plans</a></li><li><a href="shop.html">Shop</a></li><li><a href="deals.html">Deals</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h4>Plans</h4><ul><li><a href="plans.html">Unlimited</a></li><li><a href="plans.html">Family</a></li><li><a href="index.html">Bundles</a></li><li><a href="deals.html">Deals</a></li></ul></div>
+    <div class="footer-col"><h4>Support</h4><ul><li><a href="contact.html">Contact us</a></li><li><a href="#">Stores</a></li><li><a href="#">Coverage map</a></li><li><a href="#">Order status</a></li></ul></div>
+    <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:arishamukhtiar303@gmail.com">arishamukhtiar303@gmail.com</a></li><li><a href="tel:03701001249">03701001249</a></li></ul></div>
+  </div>
+  <div class="footer-social">
+    <a href="#" class="social-link social-facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-link social-instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-link social-linkedin" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  
+<script src="js/main.js"></script>
+</body>
+</html>
